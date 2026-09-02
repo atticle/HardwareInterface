@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="520" height="400" fill="#ffffff"/>
+  <text x="260" y="26" font-size="17" font-weight="bold" text-anchor="middle" fill="#111111">Digital Logic Voltage Levels</text>
+
+  <!-- vertical axis -->
+  <line x1="90" y1="50" x2="90" y2="360" stroke="#333333" stroke-width="2"/>
+  <text x="60" y="360" font-size="12" text-anchor="middle" fill="#111111">0V</text>
+  <text x="45" y="55" font-size="12" text-anchor="middle" fill="#111111">VCC</text>
+
+  <!-- High band -->
+  <rect x="90" y="60" width="360" height="90" fill="#fdeaea"/>
+  <text x="270" y="105" font-size="14" font-weight="bold" text-anchor="middle" fill="#a10000">High (Logic 1)</text>
+
+  <!-- Undefined band -->
+  <rect x="90" y="150" width="360" height="80" fill="#f0f0f0"/>
+  <text x="270" y="195" font-size="13" text-anchor="middle" fill="#555555">Undefined Region</text>
+
+  <!-- Low band -->
+  <rect x="90" y="230" width="360" height="90" fill="#e7f0fb"/>
+  <text x="270" y="278" font-size="14" font-weight="bold" text-anchor="middle" fill="#003a8c">Low (Logic 0)</text>
+
+  <!-- level lines -->
+  <line x1="80" y1="150" x2="450" y2="150" stroke="#a10000" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="470" y="154" font-size="13" fill="#a10000">VIH</text>
+
+  <line x1="80" y1="230" x2="450" y2="230" stroke="#003a8c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="470" y="234" font-size="13" fill="#003a8c">VIL</text>
+
+  <text x="470" y="75" font-size="13" fill="#a10000">VOH</text>
+  <text x="470" y="315" font-size="13" fill="#003a8c">VOL</text>
+
+  <line x1="70" y1="60" x2="90" y2="60" stroke="#333333" stroke-width="1.5"/>
+  <line x1="70" y1="320" x2="90" y2="320" stroke="#333333" stroke-width="1.5"/>
+
+  <text x="260" y="385" font-size="12" text-anchor="middle" fill="#555555">A voltage between VIL and VIH is not reliably read as 0 or 1</text>
+</svg>

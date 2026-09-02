@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 480 420"
+   font-family="Arial, sans-serif"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="bjt_switching_circuit.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.0357143"
+     inkscape:cx="239.96491"
+     inkscape:cy="210"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <rect
+     x="0"
+     y="0"
+     width="480"
+     height="420"
+     fill="#ffffff"
+     id="rect1" />
+  <text
+     x="240"
+     y="26"
+     font-size="17"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#111111"
+     id="text1">BJT Switching Circuit (Buzzer)</text>
+  <text
+     x="330"
+     y="55"
+     font-size="12"
+     text-anchor="middle"
+     fill="#555555"
+     id="text2">VCC</text>
+  <line
+     x1="330"
+     y1="60"
+     x2="330"
+     y2="85"
+     stroke="#333333"
+     stroke-width="2"
+     id="line2" />
+  <rect
+     x="300"
+     y="85"
+     width="60"
+     height="45"
+     fill="#eef2f7"
+     stroke="#333333"
+     stroke-width="1.5"
+     id="rect2" />
+  <text
+     x="330"
+     y="112"
+     font-size="12"
+     text-anchor="middle"
+     fill="#111111"
+     id="text3">Buzzer</text>
+  <line
+     x1="330"
+     y1="130"
+     x2="330"
+     y2="165"
+     stroke="#333333"
+     stroke-width="2"
+     id="line3" />
+  <!-- transistor as circle -->
+  <circle
+     cx="330"
+     cy="200"
+     r="35"
+     fill="#fff7e0"
+     stroke="#a17d00"
+     stroke-width="1.5"
+     id="circle3" />
+  <text
+     x="330"
+     y="195"
+     font-size="11"
+     text-anchor="middle"
+     fill="#111111"
+     id="text4">NPN</text>
+  <text
+     x="330"
+     y="210"
+     font-size="11"
+     text-anchor="middle"
+     fill="#111111"
+     id="text5">BJT</text>
+  <text
+     x="354"
+     y="145"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#555555"
+     id="text6">Collector</text>
+  <line
+     x1="295"
+     y1="200"
+     x2="240"
+     y2="200"
+     stroke="#333333"
+     stroke-width="2"
+     id="line6" />
+  <text
+     x="240"
+     y="185"
+     font-size="11"
+     text-anchor="middle"
+     fill="#111111"
+     id="text7">Base</text>
+  <rect
+     x="140"
+     y="185"
+     width="55"
+     height="30"
+     fill="#fff7e0"
+     stroke="#a17d00"
+     stroke-width="1.5"
+     id="rect7" />
+  <text
+     x="167"
+     y="205"
+     font-size="10"
+     text-anchor="middle"
+     fill="#111111"
+     id="text8">R_base</text>
+  <line
+     x1="140"
+     y1="200"
+     x2="80"
+     y2="200"
+     stroke="#333333"
+     stroke-width="2"
+     id="line8" />
+  <text
+     x="80"
+     y="185"
+     font-size="12"
+     text-anchor="middle"
+     fill="#003a8c"
+     id="text9">MCU Pin</text>
+  <line
+     x1="330"
+     y1="235"
+     x2="330"
+     y2="270"
+     stroke="#333333"
+     stroke-width="2"
+     id="line9" />
+  <text
+     x="350"
+     y="255"
+     font-size="10px"
+     text-anchor="middle"
+     fill="#555555"
+     id="text10">Emitter</text>
+  <text
+     x="330"
+     y="290"
+     font-size="12"
+     text-anchor="middle"
+     fill="#555555"
+     id="text11">GND</text>
+  <rect
+     x="40"
+     y="320"
+     width="400"
+     height="80"
+     rx="6"
+     fill="#f5f5f5"
+     stroke="#888888"
+     stroke-width="1"
+     id="rect11" />
+  <text
+     x="240"
+     y="342"
+     font-size="12"
+     text-anchor="middle"
+     fill="#111111"
+     id="text12">Pin HIGH -&gt; small base current flows</text>
+  <text
+     x="240"
+     y="360"
+     font-size="12"
+     text-anchor="middle"
+     fill="#111111"
+     id="text13">-&gt; transistor saturates -&gt; buzzer current flows</text>
+  <text
+     x="240"
+     y="378"
+     font-size="12"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#a17d00"
+     id="text14">Small signal controls a larger current</text>
+</svg>

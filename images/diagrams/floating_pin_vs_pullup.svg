@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+  <text x="320" y="26" font-size="17" font-weight="bold" text-anchor="middle" fill="#111111">Floating Input vs Pull-up Fixed Input</text>
+
+  <!-- Left: floating -->
+  <text x="150" y="55" font-size="14" font-weight="bold" text-anchor="middle" fill="#a10000">Floating (no pull resistor)</text>
+  <line x1="150" y1="70" x2="150" y2="130" stroke="#333333" stroke-width="2"/>
+  <circle cx="150" cy="130" r="4" fill="#111111"/>
+  <line x1="165" y1="130" x2="220" y2="130" stroke="#333333" stroke-width="2"/>
+  <text x="220" y="115" font-size="12" text-anchor="middle" fill="#111111">MCU Pin</text>
+
+  <line x1="150" y1="130" x2="150" y2="165" stroke="#333333" stroke-width="2"/>
+  <circle cx="150" cy="180" r="14" fill="#eef2f7" stroke="#333333" stroke-width="1.5"/>
+  <text x="150" y="184" font-size="10" text-anchor="middle" fill="#111111">SW</text>
+  <text x="150" y="215" font-size="11" text-anchor="middle" fill="#888888">(open, dangling wire)</text>
+
+  <!-- squiggly noise arrows -->
+  <path d="M90,100 q10,-10 0,-20 q-10,-10 0,-20" stroke="#a10000" stroke-width="1.5" fill="none"/>
+  <path d="M210,100 q10,-10 0,-20 q-10,-10 0,-20" stroke="#a10000" stroke-width="1.5" fill="none"/>
+  <text x="150" y="255" font-size="12" font-weight="bold" text-anchor="middle" fill="#a10000">Picks up noise like an antenna</text>
+
+  <rect x="30" y="280" width="240" height="70" rx="6" fill="#f5f5f5" stroke="#888888" stroke-width="1"/>
+  <text x="150" y="305" font-size="12" text-anchor="middle" fill="#111111">Switch OPEN -&gt; Voltage = ?</text>
+  <text x="150" y="323" font-size="12" font-weight="bold" text-anchor="middle" fill="#a10000">Unpredictable reading</text>
+  <text x="150" y="341" font-size="11" text-anchor="middle" fill="#555555">Random glitches possible</text>
+
+  <line x1="330" y1="45" x2="330" y2="365" stroke="#dddddd" stroke-width="1"/>
+
+  <!-- Right: fixed with pull-up -->
+  <text x="480" y="55" font-size="14" font-weight="bold" text-anchor="middle" fill="#006622">Fixed with Pull-up Resistor</text>
+  <text x="480" y="72" font-size="12" text-anchor="middle" fill="#555555">VCC</text>
+  <line x1="480" y1="78" x2="480" y2="100" stroke="#333333" stroke-width="2"/>
+  <rect x="465" y="100" width="30" height="30" fill="#fff7e0" stroke="#a17d00" stroke-width="1.5"/>
+  <text x="480" y="119" font-size="10" text-anchor="middle" fill="#111111">R</text>
+  <line x1="480" y1="130" x2="480" y2="160" stroke="#333333" stroke-width="2"/>
+  <circle cx="480" cy="160" r="4" fill="#111111"/>
+  <line x1="495" y1="160" x2="550" y2="160" stroke="#333333" stroke-width="2"/>
+  <text x="550" y="145" font-size="12" text-anchor="middle" fill="#111111">MCU Pin</text>
+
+  <line x1="480" y1="160" x2="480" y2="195" stroke="#333333" stroke-width="2"/>
+  <circle cx="480" cy="210" r="14" fill="#eef2f7" stroke="#333333" stroke-width="1.5"/>
+  <text x="480" y="214" font-size="10" text-anchor="middle" fill="#111111">SW</text>
+  <line x1="480" y1="224" x2="480" y2="250" stroke="#333333" stroke-width="2"/>
+  <text x="480" y="267" font-size="12" text-anchor="middle" fill="#555555">GND</text>
+
+  <rect x="360" y="280" width="250" height="70" rx="6" fill="#f5f5f5" stroke="#888888" stroke-width="1"/>
+  <text x="485" y="305" font-size="12" text-anchor="middle" fill="#111111">Switch OPEN -&gt; Voltage = VCC</text>
+  <text x="485" y="323" font-size="12" font-weight="bold" text-anchor="middle" fill="#006622">Stable HIGH reading</text>
+  <text x="485" y="341" font-size="11" text-anchor="middle" fill="#555555">Used by Easy Module Shield SW1/SW2</text>
+</svg>
